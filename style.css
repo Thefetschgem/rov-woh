@@ -19,3 +19,8 @@ header {
   color: #333;
   font-weight: bold;
 }
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
