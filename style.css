@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Schiebt das Menü nach rechts */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  list-style: none; /* Entfernt die Aufzählungspunkte */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Ordnet die Listenelemente nebeneinander an */
+  gap: 20px;     /* Abstand zwischen den Menüpunkten */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
