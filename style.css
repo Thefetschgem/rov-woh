@@ -24,3 +24,9 @@ header {
   text-decoration: underline;
 }
 
+.mega-heading {
+    font-size: 8vw;
+    font-family: sans-serif;
+    line-height: 1.1;
+    margin: 0 0 20px 0; /* Verhindert ungewollte Standard-Abstände */
+}
